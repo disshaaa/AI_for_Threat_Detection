@@ -77,8 +77,8 @@ python Code/gui_app.py
 ## 📊Evaluation_metrics:
 
 - test_set:
-  - mAP@0.5: 98.72
-  - mAP@0.5:0.95: 84.03
+  - mAP50: 98.72
+  - mAP50-95: 84.03
   - precision: 96.55
   - recall: 95.88
   - f1_score: 96.20
