@@ -1,6 +1,6 @@
 # 🚨 AI-Based Threat Detection System
 
-This project implements a real-time object detection system designed to **classify vehicles as either civilian or potential threats** using YOLOv8 and custom-trained datasets. It serves as a part of our Minor Project for the 6th Semester at JK Lakshmipat University.
+This project implements a real-time object detection system designed to **classify vehicles as either civilian or potential threats** using YOLOv8 and custom-trained datasets. 
 
 ---
 
