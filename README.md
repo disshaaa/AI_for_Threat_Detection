@@ -44,7 +44,7 @@ The system helps address key challenges in surveillance such as human fatigue, s
 
 ## 💻 GUI Interface
 
-We’ve built a simple yet visually appealing GUI using `Tkinter` where the user can:
+Built a simple yet visually appealing GUI using `Tkinter` where the user can:
 
 1. Upload an image or video.
 2. Instantly see the detection output with labeled boxes.
@@ -72,3 +72,40 @@ pip install -r requirements.txt
 
 # Run the GUI
 python Code/gui_app.py
+```
+---
+## 📊Evaluation_metrics:
+
+- test_set:
+  - mAP@0.5: 98.72
+  - mAP@0.5:0.95: 84.03
+  - precision: 96.55
+  - recall: 95.88
+  - f1_score: 96.20
+
+---
+
+## 🚧 Limitations
+
+- This version does not include cybersecurity integration (e.g., spoofed feed detection).
+- Threat-class images are comparatively fewer, which may affect performance unless the dataset is further balanced.
+- It is a proof-of-concept, not deployed in production.
+
+---
+
+## 📌 Future Scope
+
+- Integrating video integrity checks to detect manipulated/spoofed feeds
+- Expanding dataset with more threat-class samples
+- Deploying on edge devices like NVIDIA Jetson Nano for live surveillance
+
+---
+
+## 🙌 Acknowledgements
+
+- Roboflow for seamless dataset annotation and augmentation
+- Ultralytics for YOLOv8
+- OpenCV and Tkinter for computer vision and GUI
+
+---
+⭐ Star this repo if you found it useful!
