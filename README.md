@@ -59,16 +59,16 @@ Built a simple yet visually appealing GUI using `Tkinter` where the user can:
 
 ```bash
 # Clone this repo
-git clone https://github.com/your-username/AI_for_Threat_Detection.git
-cd AI_for_Threat_Detection
+  git clone https://github.com/your-username/AI_for_Threat_Detection.git
+  cd AI_for_Threat_Detection
 
 # Create virtual environment (recommended)
-python -m venv yolov8-gui-env
-.\yolov8-gui-env\Scripts\activate   # Windows
-source yolov8-gui-env/bin/activate # Linux/Mac
+  python -m venv yolov8-gui-env
+  .\yolov8-gui-env\Scripts\activate   # Windows
+  source yolov8-gui-env/bin/activate # Linux/Mac
 
 # Run the GUI
-python Code/gui_app1.py
+  python Code/gui_app1.py
 ```
 
 ---
